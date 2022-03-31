@@ -36,7 +36,8 @@ services:
       - mongodb
     image: renzholy/mongood
 
-    environment:
-      - MONGO_URI=["mongodb://root:root@127.0.0.1:27017/thedbname?authSource=admin"] #que quede como environment de main
+   # environment:
+    #  - MONGO_URI=["mongodb://root:root@mongodb/thedbname?authSource=admin"] #que quede como environment de main
     ports:
-      - "3001:3000"
+
+  
